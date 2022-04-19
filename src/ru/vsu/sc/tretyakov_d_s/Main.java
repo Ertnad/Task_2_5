@@ -6,13 +6,12 @@ import java.awt.*;
 public class Main {
 
     public static void main(String[] args) {
-       /* EventQueue.invokeLater(() -> {
+       EventQueue.invokeLater(() -> {
             JFrame frameMain = new TreeDemoFrame();
             frameMain.setVisible(true);
         });
 
-        */
-
+        /*
         try {
             SimpleBSTree<Integer> tree = new SimpleBSTree<>(Integer::parseInt);
             tree.fromBracketNotation("80 (62 (55 (26 (5, 39), 57)), 94)");
@@ -22,5 +21,6 @@ public class Main {
         } catch (Exception e) {
             e.printStackTrace();
         }
+        */
     }
 }
